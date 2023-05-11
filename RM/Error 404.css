@@ -1,0 +1,43 @@
+body {
+    background-image: url('./Imágenes/FONDO404.jpg');
+    background-size:cover;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Primer párrafo*/
+.error-msg {
+    font-size: 6rem;
+    color: #f7e6d4;
+}
+/*Segundo párrafo*/
+.lead {
+    font-size: 4.5rem;
+    color: #f7e6d4;
+}
+/*Tercer párrafo*/
+.error-footer{
+    color: #f7e6d4;
+    font-size: 2rem;
+}
+/*Propiedades del button*/
+.btn-primary:focus {
+    outline: none;
+  }
+
+.btn-primary {
+    background-color: #17a4ba;
+    border-color: #454545;
+}
+
+.btn-primary:hover {
+    background-color: #17a4ba;
+    border-color: #454545;
+}
+
+.btn-primary:focus {
+    outline: none;
+  }
